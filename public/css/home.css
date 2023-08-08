@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.primero{
+    text-align: center;
+}
+
+main{
+    background-color: #ebebeb;
+   text-align: center;
+    width: 90%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    background-color: #EAC926;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.titular{
+    font-size: 24px;
+    color: #666;
+}
+.card{
+    background-color: aqua;
+    /* width: 90%; */
+    
+}
+.card img{
+   width: 100%;
+}
+
+.precio{
+ font-size: 18px;
+}
+
+.descuento{
+font-size: 16px;
+}
+.desc{
+font-size: 16px;
+}
+
+.burger-menu{
+    text-align: center;
+}
+
+
+.fa-bars{
+background-color: #1259c3;
+color: white;
+
+}
+
+footer{
+    text-align: center;
+    color: #666;
+}
+
+
+
+footer i{
+    font-size: 2em;
+    margin-bottom: 10px;
+
+}
+
