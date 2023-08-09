@@ -1,74 +1,577 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.primero{
+* {
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #ebebeb;
+
+}
+
+
+.fa-gift{
+    color: blue;
+}
+
+.fa-user-shield{
+    color: blue;
+
+}
+
+.fa-credit-card{
+    color: blue;
+}
+.primero {
     text-align: center;
 }
 
-main{
+ main {
     background-color: #ebebeb;
-   text-align: center;
+
     width: 90%;
-}
-body{
+    justify-items: center;
+} 
+
+body {
     font-family: 'Roboto', sans-serif;
 }
-nav{
+
+nav {
     background-color: #EAC926;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: black;
 }
 
-.titular{
+.titular {
     font-size: 24px;
     color: #666;
 }
-.card{
-    background-color: aqua;
-    /* width: 90%; */
-    
-}
-.card img{
-   width: 100%;
+
+.card {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+    box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1);
 }
 
-.precio{
- font-size: 18px;
+.card:hover{
+    box-shadow: 0px 15px 3px rgba(0, 0, 0, 0.1);
+    border:solid 0.1px gray;
 }
 
-.descuento{
-font-size: 16px;
-}
-.desc{
-font-size: 16px;
+.card img {
+    width: 90%;
 }
 
-.burger-menu{
+.banner img {
+    width: 100%;
+}
+
+.precio {
+    font-size: 18px;
+}
+
+.descuento {
+    font-size: 16px;
+    color: #4acd29;
+}
+
+.desc {
+    font-size: 16px;
+}
+
+.burger-menu {
     text-align: center;
 }
 
 
-.fa-bars{
-background-color: #1259c3;
-color: white;
-
+.fa-bars {
+    background-color: #1259c3;
+    color: white;
+    width: 30px;
+    height: 26px;
+    border-radius: 7px;
+    line-height: 26px;
 }
 
-footer{
+footer {
+    margin-top: 50px;
     text-align: center;
     color: #666;
 }
 
 
 
-footer i{
+footer i {
     font-size: 2em;
     margin-bottom: 10px;
 
 }
 
+.mismo {
+    display: flex;
+
+}
+
+.mismo p.precio {
+
+    width: 30%;
+}
+
+.mismo p.descuento {
+
+    width: 70%;
+    right: 10%;
+}
+
+.circle {
+    border: #4acd29 solid 1px;
+    border-radius: 50%;
+    width: fit-content;
+    padding: 13px;
+    /* right: 34px; */
+    /* width: 45px; */
+    /* top: 144%; */
+    /* position: absolute; */
+    /* position: relative; */
+    /* margin-top: 220px; */
+    background-color: #fff;
+}
+
+.circle .fas {
+    color: #4acd29;
+    font-size: 15px;
+    text-align: center;
+}
+
+.circle .fas:hover {
+    transform: rotate(-90deg);
+    transition: all 0.5s ease-in;
+}
+
+
+.deliverIcon:hover {
+    position: absolute;
+}
+
+.detalle {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+}
+
+
+    
+
+
+.ocultar {
+    display: none;
+}
+
+.logoybus {
+    display: flex;
+}
+
+.logoybus .logo {
+    width: 50%;
+}
+
+.logoybus .barrab {
+    width: 50%;
+}
+
+.logoybus .barrab button {
+    display: none;
+}
+
+.logoybus p.primero {
+    display: none;
+}
+
+.conflex {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.conflex .logo {
+    width: 50%;
+}
+
+.conflex .barrab{
+    width: 50%;
+}
+
+.loco{
+    display: none;
+}
+
+input{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+.lista{
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+.datos{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.datos input{
+    margin: 16px;
+    margin-right: 0%;
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 19px;
+    padding: 14px;
+}
+
+.botonEnviar{
+    text-align: center;
+}
+
+.botonEnviar button{
+   background-color: #1259c3;
+   border-radius: 10px;
+   width: 100px;
+   height: 40px;
+   color: wheat;
+}
+
+.botonEnviar a{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+ }
+
+ .opciones select{
+    
+    font-weight: bold;
+    border-radius: 10px;
+    height: 30px;
+ }
+
+ .opciones{
+    text-align: center;
+ }
+
+ .terminos{
+    text-align: center;
+    margin: 10px;
+ }
+
+ .terminos ul{
+    list-style: none;
+ }
+
+ .cuadroreg{
+    justify-content: center;
+    width: 90%;
+    background-color: #fff;
+    border:solid 1px black;
+    border-radius: 20px;
+    padding: 2px;
+    margin-left: 4%;
+   
+
+ }
+ .terminos input{
+    width: 18px;
+    height: 14px;
+    margin: 7px;
+ }
+
+
+
+
+
+@media(min-width : 769px) {
+
+    /*  igual o superior a 769 píxeles    pc */
+
+    .cuadroreg{
+        justify-content: center;
+        width: 90%;
+        background-color: #fff;
+        border:solid 1px black;
+        border-radius: 20px;
+        padding: 40px;
+        margin-left: 4%;
+       
+    
+     }
+
+
+    .desc {
+        display: none;
+        transition: opacity 0.3s; 
+    }
+    
+        .card:hover .desc {
+            display: block; 
+            opacity: 1;
+        }
+    .fa-gift:hover{
+        color:#EAC926;
+    }
+   
+    
+    .fa-user-shield:hover{
+        color: #EAC926;
+    
+    }
+    
+    .fa-credit-card:hover{
+        color: #EAC926;
+    }
+
+
+    .flexfo{
+        display: flex;
+
+    }
+
+input{
+    width: 70%;
+    height: 25px;
+    border-radius: 0px;
+}
+
+
+    .titular{
+        text-align: center;
+    }
+    
+    .burger-menu {
+        display: none;
+    }
+
+    
+
+
+    .conflex {
+        display: flex;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
+
+    .conflex img {
+        width: 100%;
+    }
+
+    .conflex .logo {
+        width: 33%;
+    }
+    
+    .conflex .barrab{
+        width: 33%;
+    }
+
+    .conflex p.primero{
+        width: 33%;
+    }
+
+    .loco{
+        display: flex;
+    }
+
+    .loco .menu{
+        width: 50%;
+    }
+
+    .loco .login{
+        width: 50%;
+    }
+
+
+    .loco .menu ul{
+        display: flex;
+        justify-content: center; /* Alineación horizontal */
+        align-items: center; /* Alineación vertical */
+       list-style: none;
+       justify-content: space-around;
+       margin-right: 60px;
+       
+    }
+
+    .loco .login ul{
+        display: flex;
+        justify-content: center; /* Alineación horizontal */
+        align-items: center; /* Alineación vertical */
+       list-style: none;
+       justify-content: space-around;
+       margin-left: 60px;
+    }
+
+    .lista{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background-color: rgb(255, 255, 255);
+        margin: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        max-width: 20%;
+    }
+
+    .mismo p.precio {
+
+        width: 50%;
+    }
+    
+    .mismo p.descuento {
+    
+        width: 50%;
+        right: 80%;
+    }
+    .datos input{
+        margin: 16px;
+        margin-right: 24%;
+        width: 40%;
+        height: 40px;
+        border-radius: 10px;
+        margin-top: 19px;
+        padding: 14px;
+    }
+    
+}
+@media (min-width: 361px) and (max-width: 769px) {
+    /* Estilos para pantallas de tablet entre 361px y 769px */
+    .cuadroreg{
+        justify-content: center;
+        width: 90%;
+        background-color: #fff;
+        border:solid 1px black;
+        border-radius: 20px;
+        padding: 40px;
+        margin-left: 4%;
+       
+    
+     }
+
+    input{
+        width: 70%;
+        height: auto;
+        border-radius: 0px;
+    }
+    
+
+    .titular{
+        text-align: center;
+    }
+    
+
+    .mismo p.precio {
+
+        width: 50%;
+    }
+    
+    .mismo p.descuento {
+    
+        width: 50%;
+        right: 80%;
+    }
+    .precio{
+         font-size: 10px;
+    }
+.descuento{
+    font-size: 8px;
+    
+}
+    .desc{
+        font-size: 10px;
+    }
+   
+
+    .burger-menu {
+        display: none;
+    }
+
+    
+
+    .logoybus {
+        display: block;
+    }
+    
+    .loco {
+        display: flex;
+    }
+
+    .loco .menu,
+    .loco .login {
+        width: 50%;
+    }
+
+    .loco .menu ul,
+    .loco .login ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        justify-content: space-around;
+        margin: 0; /* Asegúrate de resetear los márgenes */
+    }
+
+    .loco .menu ul li,
+    .loco .login ul li {
+        font-size: 10px;
+    }
+
+    .lista {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .card {
+        background-color: rgb(255, 255, 255);
+        margin: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        max-width: 35%;
+    }
+
+    .datos input{
+        margin: 16px;
+        margin-right: 24%;
+        width: 40%;
+        height: 40px;
+        border-radius: 10px;
+        margin-top: 19px;
+        padding: 14px;
+    }
+}
